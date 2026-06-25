@@ -208,7 +208,12 @@ export default function App() {
       {/* Header Panel */}
       <header className="app-header">
         <div className="brand-section">
-          <div className="logo-icon">✓</div>
+          <div className="logo-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" strokeOpacity="0.3" />
+              <polyline points="7.5 12.5 10.5 15.5 16.5 9" />
+            </svg>
+          </div>
           <h1 className="brand-title">Focus Flow</h1>
         </div>
         <button
